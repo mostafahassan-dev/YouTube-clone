@@ -13,5 +13,5 @@ a fully responsive YouTube app.
 </ul>
 
 
-##Demo
+##Demo:
 https://youtube-clone-mz7.vercel.app/
