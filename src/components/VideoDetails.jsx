@@ -6,7 +6,7 @@ import ReactPlayer from "react-player";
 import { useParams, Link } from "react-router-dom";
 import { fetchAPI } from "../utils/fetchAPI";
 import {Videos} from "./";
-import Loading from "./Loading";
+import Loader from "./Loader";
 
 function VideoDetails() {
   const [videoDetails, setvideoDetails] = useState([]);
@@ -23,8 +23,8 @@ function VideoDetails() {
     .then((data)=>{setvideos(data.items);})
   }, [id]);
 
-if(!videoDetails?.snippet) return <Loading/>
-if(!videos?.length) return <Loading/>
+if(!videoDetails?.snippet) return <Loader/>
+if(!videos?.length) return <Loader/>
 
 
 const {snippet:{title , channelId , channelTitle},
