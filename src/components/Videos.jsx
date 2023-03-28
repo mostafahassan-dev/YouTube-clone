@@ -1,11 +1,11 @@
 import { Stack ,Box} from "@mui/system";
 import { ChannelCard, VideoCard } from "./";
-import Loading from "./Loading";
+import Loader from "./Loader";
 
 
 function Videos({ videos, direction }) {
 
-    if(!videos?.length) return <Loading/>
+    if(!videos?.length) return <Loader/>
 
     return (
         <Stack direction={direction ||'row'} flexWrap='wrap' 
