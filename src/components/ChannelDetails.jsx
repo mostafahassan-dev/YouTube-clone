@@ -3,7 +3,7 @@ import {  useParams } from "react-router-dom"
 import {ChannelCard ,Videos} from "./"
 import { useEffect , useState } from "react"
 import { fetchAPI } from "../utils/fetchAPI"
-import Loader from "./Loading"
+import Loader from "./Loader"
 
 
 function ChannelDetails() {
