@@ -3,7 +3,7 @@ import {  useParams } from "react-router-dom"
 import {ChannelCard ,Videos} from "./"
 import { useEffect , useState } from "react"
 import { fetchAPI } from "../utils/fetchAPI"
-import Loading from "./Loading"
+import Loader from "./Loading"
 
 
 function ChannelDetails() {
@@ -23,7 +23,7 @@ useEffect( () => {
     
 }, [id]);
 
-if(!videos?.length) return <Loading/>
+if(!videos?.length) return <Loader/>
 
 
   return (
