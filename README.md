@@ -1,5 +1,7 @@
-## YouTube Clone Application 
-a fully responsive YouTube app.
+# YouTube Clone Application 
+
+Built a functional YouTube clone with a custom user interface similar to the original using React and Material UI.
+Developed stunning video sections, custom categories, channel pages, and a custom video player component that allows users to watch and control videos, including      play, pause, and seek functionalities.
 
 ### Using:
 <ul>
