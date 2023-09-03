@@ -14,6 +14,6 @@ Developed stunning video sections, custom categories, channel pages, and a custo
   <li> React-Player
 </ul>
 
-## <a href= "https://youtube-clone-mz7.vercel.app/">Demo </a>
+## <a href= "https://youtubeclone-dev.vercel.app">Demo </a>
 
 ![IMG-20230223-WA0001](https://user-images.githubusercontent.com/104537380/220776640-b798a6db-f02a-4de4-a0c6-b59c6a029709.jpg)
